@@ -22,7 +22,18 @@ if (count($_POST) > 0)
 
     $inputFileType = 'Xls';
     // $inputFileName = './plan3-IT.xls';
-    $inputFilesNames = ['./plan1-IT.xls', './plan2-IT.xls', './plan3-IT.xls', './plan4-IT.xls'];
+    $inputFilesNames = [
+        './plan1-IT.xls',
+        './plan2-IT.xls',
+        './plan3-IT.xls',
+        './plan4-IT.xls',
+        './plan1-Z2.xls',
+        './plan2-Z2.xls',
+        './plan1-Z1.xls',
+        './plan2-Z1.xls',
+        './plan3-Z1.xls',
+        './plan4-Z1.xls',
+    ];
     $class_data = [];
     foreach ($inputFilesNames as $inputFileName)
     {
