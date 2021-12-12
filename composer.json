@@ -1,0 +1,19 @@
+{
+    "name": "42zeroo/skaner_planu_owsiiz",
+    "description": "Aplikacja do konwertowania plikow excela z planem do json.",
+    "type": "project",
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.20"
+    },
+    "autoload": {
+        "psr-4": {
+            "42zeroo\\SkanerPlanuOwsiiz\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "42zeroo",
+            "email": "42zeroo@gmail.com"
+        }
+    ]
+}
